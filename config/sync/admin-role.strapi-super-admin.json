@@ -138,7 +138,7 @@
       "locale": null
     },
     {
-      "documentId": "y9z70k3xicrgf67sjpxj8grq",
+      "documentId": "xvko7rxe2cvh2grz9x3ho1po",
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
@@ -152,31 +152,45 @@
           "techStacks.title",
           "tag.title",
           "slug"
+        ],
+        "locales": [
+          "en",
+          "th"
         ]
       },
       "conditions": [],
       "locale": null
     },
     {
-      "documentId": "nw2rpvbqv66q42umrjxjxqrb",
+      "documentId": "nm7lp2hbsm7glos0e31wqbho",
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
-      "properties": {},
+      "properties": {
+        "locales": [
+          "en",
+          "th"
+        ]
+      },
       "conditions": [],
       "locale": null
     },
     {
-      "documentId": "paacoobjhntgq37m9o3gakm0",
+      "documentId": "qxbis3mnpjjyrzfyrx7i6vz3",
       "action": "plugin::content-manager.explorer.publish",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
-      "properties": {},
+      "properties": {
+        "locales": [
+          "en",
+          "th"
+        ]
+      },
       "conditions": [],
       "locale": null
     },
     {
-      "documentId": "vpg3p5l4i8nkvedm6zzualcb",
+      "documentId": "kb2de8v0qe5od0e4zox24awd",
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
@@ -190,13 +204,17 @@
           "techStacks.title",
           "tag.title",
           "slug"
+        ],
+        "locales": [
+          "en",
+          "th"
         ]
       },
       "conditions": [],
       "locale": null
     },
     {
-      "documentId": "g1ljw94p9wy2njejv1m14ylx",
+      "documentId": "nb7sgtdfq6vs1sys0k5akfm7",
       "action": "plugin::content-manager.explorer.update",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
@@ -210,6 +228,10 @@
           "techStacks.title",
           "tag.title",
           "slug"
+        ],
+        "locales": [
+          "en",
+          "th"
         ]
       },
       "conditions": [],
