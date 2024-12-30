@@ -6,7 +6,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "id",
+      "mainField": "title",
       "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
@@ -18,13 +18,35 @@
           "searchable": false,
           "sortable": false
         }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
       "list": [
-        "id"
+        "id",
+        "title"
       ],
-      "edit": []
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
+        ]
+      ]
     },
     "uid": "shared.text",
     "isComponent": true

@@ -433,7 +433,8 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
 export interface ApiPortfolioPortfolio extends Struct.CollectionTypeSchema {
   collectionName: 'portfolios';
   info: {
-    displayName: 'portfolio';
+    description: '';
+    displayName: 'Portfolio';
     pluralName: 'portfolios';
     singularName: 'portfolio';
   };

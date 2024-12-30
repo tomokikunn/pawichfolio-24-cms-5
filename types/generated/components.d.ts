@@ -65,9 +65,12 @@ export interface SharedSlider extends Struct.ComponentSchema {
 export interface SharedText extends Struct.ComponentSchema {
   collectionName: 'components_shared_texts';
   info: {
+    description: '';
     displayName: 'Text';
   };
-  attributes: {};
+  attributes: {
+    title: Schema.Attribute.String;
+  };
 }
 
 declare module '@strapi/strapi' {
