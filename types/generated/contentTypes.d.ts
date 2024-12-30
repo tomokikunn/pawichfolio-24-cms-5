@@ -462,6 +462,9 @@ export interface ApiPortfolioPortfolio extends Struct.CollectionTypeSchema {
     projectName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     shortDescription: Schema.Attribute.Text;
+    slug: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
     tags: Schema.Attribute.Component<'shared.text', true>;
     techStacks: Schema.Attribute.Component<'shared.text', true>;
     updatedAt: Schema.Attribute.DateTime;

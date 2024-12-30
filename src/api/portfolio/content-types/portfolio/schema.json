@@ -53,6 +53,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.text"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
