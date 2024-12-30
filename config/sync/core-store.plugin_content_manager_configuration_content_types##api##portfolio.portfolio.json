@@ -198,9 +198,7 @@
           {
             "name": "slug",
             "size": 6
-          }
-        ],
-        [
+          },
           {
             "name": "projectName",
             "size": 6
