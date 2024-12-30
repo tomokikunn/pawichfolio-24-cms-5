@@ -465,7 +465,7 @@ export interface ApiPortfolioPortfolio extends Struct.CollectionTypeSchema {
     slug: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
-    tags: Schema.Attribute.Component<'shared.text', true>;
+    tag: Schema.Attribute.Component<'shared.text', false>;
     techStacks: Schema.Attribute.Component<'shared.text', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

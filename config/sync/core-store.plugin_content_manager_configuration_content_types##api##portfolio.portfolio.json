@@ -95,8 +95,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": true,
-          "mainField": "title"
+          "editable": true
         },
         "list": {
           "label": "techStacks",
@@ -104,17 +103,16 @@
           "sortable": false
         }
       },
-      "tags": {
+      "tag": {
         "edit": {
-          "label": "Tags",
+          "label": "tag",
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": true,
-          "mainField": "title"
+          "editable": true
         },
         "list": {
-          "label": "tags",
+          "label": "tag",
           "searchable": false,
           "sortable": false
         }
@@ -193,6 +191,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "projectName",
+        "shortDescription",
+        "coverImage"
+      ],
       "edit": [
         [
           {
@@ -236,16 +240,10 @@
         ],
         [
           {
-            "name": "tags",
+            "name": "tag",
             "size": 12
           }
         ]
-      ],
-      "list": [
-        "id",
-        "projectName",
-        "shortDescription",
-        "coverImage"
       ]
     },
     "uid": "api::portfolio.portfolio"

@@ -138,7 +138,7 @@
       "locale": null
     },
     {
-      "documentId": "vhtjctto19zie391bykha0bh",
+      "documentId": "y9z70k3xicrgf67sjpxj8grq",
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
@@ -150,7 +150,7 @@
           "coverImage",
           "medias",
           "techStacks.title",
-          "tags.title",
+          "tag.title",
           "slug"
         ]
       },
@@ -176,7 +176,7 @@
       "locale": null
     },
     {
-      "documentId": "soaq819hrd2bgqzmagax4bm7",
+      "documentId": "vpg3p5l4i8nkvedm6zzualcb",
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
@@ -188,7 +188,7 @@
           "coverImage",
           "medias",
           "techStacks.title",
-          "tags.title",
+          "tag.title",
           "slug"
         ]
       },
@@ -196,7 +196,7 @@
       "locale": null
     },
     {
-      "documentId": "sbe0ic65ytbyt0fhcbp2391k",
+      "documentId": "g1ljw94p9wy2njejv1m14ylx",
       "action": "plugin::content-manager.explorer.update",
       "actionParameters": {},
       "subject": "api::portfolio.portfolio",
@@ -208,7 +208,7 @@
           "coverImage",
           "medias",
           "techStacks.title",
-          "tags.title",
+          "tag.title",
           "slug"
         ]
       },
